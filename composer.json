@@ -1,0 +1,18 @@
+{
+  "name": "enterio/enterio-coding-standard",
+  "type": "phpcodesniffer-standard",
+  "description": "The Enterio Coding Standard as PHPCS ruleset.",
+  "license": "proprietary",
+  "require": {
+    "php": "^7.1",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+    "slevomat/coding-standard": "^4.8.0",
+    "squizlabs/php_codesniffer": "^3.3.2"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
