@@ -3,13 +3,8 @@
   "type": "phpcodesniffer-standard",
   "description": "The Enterio Coding Standard as PHPCS ruleset.",
   "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Enterio\\Sniffs\\": "Enterio/Sniffs"
-    }
-  },
   "require": {
-    "php": "^7.1",
+    "php": "^7.2",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
     "slevomat/coding-standard": "^4.8.0",
     "squizlabs/php_codesniffer": "^3.3.2"
