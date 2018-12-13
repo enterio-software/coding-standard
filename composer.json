@@ -3,6 +3,11 @@
   "type": "phpcodesniffer-standard",
   "description": "The Enterio Coding Standard as PHPCS ruleset.",
   "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Enterio\\Sniffs\\": "Enterio/Sniffs"
+    }
+  },
   "require": {
     "php": "^7.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
@@ -16,7 +21,7 @@
     "sort-packages": true
   },
   "scripts": {
-	"post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../..",
-	"post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths ../../.."
-}
+    "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../..",
+    "post-update-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../.."
+  }
 }
