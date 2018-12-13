@@ -2,7 +2,7 @@
   "name": "enterio/coding-standard",
   "type": "phpcodesniffer-standard",
   "description": "The Enterio Coding Standard as PHPCS ruleset.",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": "^7.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
