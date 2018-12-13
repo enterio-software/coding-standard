@@ -1,5 +1,5 @@
 {
-  "name": "enterio/enterio-coding-standard",
+  "name": "enterio/coding-standard",
   "type": "phpcodesniffer-standard",
   "description": "The Enterio Coding Standard as PHPCS ruleset.",
   "license": "proprietary",
