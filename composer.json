@@ -14,5 +14,9 @@
   },
   "config": {
     "sort-packages": true
-  }
+  },
+  "scripts": {
+	"post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../..",
+	"post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths ../../.."
+}
 }
