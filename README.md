@@ -4,7 +4,7 @@ Enterio Coding Standard as PHPCS ruleset.
 ## Installation
 Install the coding standard with the following command:
 
-    composer require "enterio-software/coding-standard"
+    composer require "enterio/coding-standard"
 
 To use this coding standard in your project add the following phpcs.xml in the root directory:
 ```xml
